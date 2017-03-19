@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "Student.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    Student *student = [Student new];
+//    student.studiesAnatomy = YES;
+//    student.studiesDevelopment = YES;
+//    student.studiesMath = YES;
+//    student.studiesEngineering = YES;
+//    student.studiesArt = NO;
+//    student.studiesBiology = NO;
+//    student.studiesPhycology = NO;
+    student.study = StudentSubjectTypeAnatomy | StudentSubjectTypeDevelopment |
+                    StudentSubjectTypeMath | StudentSubjectTypeEngineering;
+    NSLog(@"%@", student);
+    
     return YES;
 }
 

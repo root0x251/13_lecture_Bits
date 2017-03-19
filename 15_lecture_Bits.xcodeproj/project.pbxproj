@@ -15,6 +15,7 @@
 		F99149031E7E708F004FD83E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99149011E7E708F004FD83E /* LaunchScreen.storyboard */; };
 		F991490E1E7E708F004FD83E /* _5_lecture_BitsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F991490D1E7E708F004FD83E /* _5_lecture_BitsTests.m */; };
 		F99149191E7E7090004FD83E /* _5_lecture_BitsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F99149181E7E7090004FD83E /* _5_lecture_BitsUITests.m */; };
+		F99149671E7E7768004FD83E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = F99149661E7E7768004FD83E /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F99149141E7E7090004FD83E /* 15_lecture_BitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 15_lecture_BitsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99149181E7E7090004FD83E /* _5_lecture_BitsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_lecture_BitsUITests.m; sourceTree = "<group>"; };
 		F991491A1E7E7090004FD83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99149651E7E7768004FD83E /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Student.h; path = ../Student.h; sourceTree = "<group>"; };
+		F99149661E7E7768004FD83E /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Student.m; path = ../Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				F99148F61E7E708F004FD83E /* AppDelegate.h */,
 				F99148F71E7E708F004FD83E /* AppDelegate.m */,
+				F99149651E7E7768004FD83E /* Student.h */,
+				F99149661E7E7768004FD83E /* Student.m */,
 				F99148F91E7E708F004FD83E /* ViewController.h */,
 				F99148FA1E7E708F004FD83E /* ViewController.m */,
 				F99148FC1E7E708F004FD83E /* Main.storyboard */,
@@ -276,6 +281,7 @@
 				F99148FB1E7E708F004FD83E /* ViewController.m in Sources */,
 				F99148F81E7E708F004FD83E /* AppDelegate.m in Sources */,
 				F99148F51E7E708F004FD83E /* main.m in Sources */,
+				F99149671E7E7768004FD83E /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +513,7 @@
 				F991491F1E7E7090004FD83E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F99149201E7E7090004FD83E /* Build configuration list for PBXNativeTarget "15_lecture_BitsTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				F99149221E7E7090004FD83E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F99149231E7E7090004FD83E /* Build configuration list for PBXNativeTarget "15_lecture_BitsUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				F99149251E7E7090004FD83E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
